@@ -5,12 +5,41 @@ public class Main {
     task3();
     task4();
     task5();
+    task6();
+    task7();
+
+
 
 
     }
-// задание 6
+// Задание 8
+    private static void task7() {
+        int j = 2;
+        for (int i = 1; i <= 9; i++) {
+                System.out.println(" " + i + " x " + j + " = " + (i*j));
+            }
+        }
+
+
+
+    // Задание 7
+    private static void task6() {
+        int agg = 1822;
+        for (; agg <= 2122; agg++) {
+            if (agg % 79 == 0) {
+                System.out.print(" " + agg);
+            }
+        }
+    }
+
+    // задание 6
     private static void task5() {
-     // я не знаю как ...
+   int d = 5;
+   for (; d <= 31; d++) {
+       if (d % 7 ==0) {
+           System.out.println("Сегодня пятница, " + d + "-е число. Необходимо подготовить отчет.");
+       }
+   }
     }
 
     // задание 4, 5
